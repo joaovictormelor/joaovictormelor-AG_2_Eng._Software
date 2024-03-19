@@ -9,3 +9,5 @@ Operações básicas: adição, subtração, multiplicação e divisão.
 Tecnologias:
 Linguagem de programação: JavaScript
 Linguagem de marcação: HTML
+
+adicoando o menos aqui
