@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web</title>
+    <style>
+        .calculator {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .input {
+            width: 200px;
+            height: 30px;
+            margin: 5px;
+        }
+        .button {
+            width: 210px;
+            height: 30px;
+            margin: 5px;
+        }        
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="num1" class="input">
+        <input type="number" id="num2" class="input">
+        <button onclick="calculate('+')" class="button">Adição</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
